@@ -1,11 +1,17 @@
 import React from "react"
+import styled from "styled-components"
+import Header from "../components/Header"
 
 const Home = () => {
   return (
-    <div>
-      <h1>Salom</h1>
-    </div>
+    <Container>
+      <Header />
+    </Container>
   )
 }
 
 export default Home
+
+const Container = styled.div`
+  background: #222;
+`
