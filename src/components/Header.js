@@ -39,7 +39,7 @@ const DropDown = styled.select`
   font-size: 1rem;
   font-weight: 400;
   color: white;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 0.25rem;
 `
 const SignIn = styled.button`
